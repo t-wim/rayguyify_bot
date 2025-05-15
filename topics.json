@@ -1,0 +1,103 @@
+{
+  "degen": {
+    "keywords": [
+      "degen",
+      "ape",
+      "yolo"
+    ],
+    "description": "Degenerate gambler who apes into brand-new meme coins and high-APY farms without due diligence.",
+    "default_scene": "Full Degen Mode - A frog-eyed degen launches into the void, charts exploding behind him, surrounded by glowing tokens \u2013 no parachute, just pure YOLO.",
+    "default_caption": "No research. Just vibes."
+  },
+  "copium": {
+    "keywords": [
+      "copium",
+      "cope",
+      "hopium"
+    ],
+    "description": "The fictional drug inhaled to ease the pain of losses or missed pumps.",
+    "default_scene": "A trader sitting in darkness surrounded by red candles, wearing a gas mask labeled COPIUM, huffing from a tank.",
+    "default_caption": "Still bullish after 90% dump. Copium engaged."
+  },
+  "diamond_hands": {
+    "keywords": [
+      "diamond hands",
+      "hodl",
+      "never sell"
+    ],
+    "description": "Holding through all volatility with unbreakable conviction.",
+    "default_scene": "Diamondhands with mudra pose / thumbs up, background: bleeding chart + cosmic light.",
+    "default_caption": "Diamond hands \ud83d\udc8e\ud83e\udd32 \u2013 selling is for mortals."
+  },
+  "fomo": {
+    "keywords": [
+      "fomo",
+      "miss",
+      "top",
+      "blast"
+    ],
+    "description": "Fear of Missing Out, buying impulsively to catch the pump.",
+    "default_scene": "Desperate frog character chasing a rocket labeled '100x' with panic eyes.",
+    "default_caption": "Buy the top? Sure, can't miss the party!"
+  },
+  "holding": {
+    "keywords": [
+      "hodl",
+      "holding",
+      "long term"
+    ],
+    "description": "Originated from the typo HODL; keep your coins no matter what.",
+    "default_scene": "A zen-like RayGuy meditating while chaos unfolds behind him.",
+    "default_caption": "I am HODLING \u2013 deal with it."
+  },
+  "jeet": {
+    "keywords": [
+      "jeet",
+      "paper hands",
+      "sold"
+    ],
+    "description": "Just Exit Early Trader who cashes out at first dip.",
+    "default_scene": "Trader hits sell at +1%, screen shows +300% the next day, regret overlay.",
+    "default_caption": "Jeet at 1\u00d7 \u2013 watching others hit millies."
+  },
+  "rekt": {
+    "keywords": [
+      "rekt",
+      "liquidated",
+      "wrecked"
+    ],
+    "description": "Total loss through liquidation or rugpull.",
+    "default_scene": "A trader lying in a crater, blown up screen nearby, red candles raining.",
+    "default_caption": "Liquidated again \u2013 get rekt!"
+  },
+  "rugpull": {
+    "keywords": [
+      "rug",
+      "rugpull",
+      "scam"
+    ],
+    "description": "Developers pull liquidity and disappear, leaving token worthless.",
+    "default_scene": "Dev running away with bag of tokens, chart instantly nukes to zero.",
+    "default_caption": "Liquidity gone. Dreams gone."
+  },
+  "valhalla": {
+    "keywords": [
+      "valhalla",
+      "moon",
+      "god candle"
+    ],
+    "description": "Mythic end goal where diamond hands finally pay off.",
+    "default_scene": "Glorious entrance of RayGuy into meme crypto Valhalla, rainbow rockets and god candles in background.",
+    "default_caption": "See you in Valhalla \ud83d\ude80"
+  },
+  "wagmi": {
+    "keywords": [
+      "wagmi",
+      "together",
+      "make it"
+    ],
+    "description": "Community rallying cry \u2013 We Are Gonna Make It!",
+    "default_scene": "Group of frog characters cheering with charts going green behind them.",
+    "default_caption": "WAGMI \u2013 we got this!"
+  }
+}
