@@ -57,12 +57,17 @@ def main():
                                         media_ids=[media.media_id])
                     logging.info("Replied to tweet %s with topic '%s'", m.id, topic)
                     last_id = m.id
+                    logging.info("Initial startup delay...")
+                    time.sleep(30)
         except tweepy.TooManyRequests:
             logging.warning("Rate limit hit. Sleeping for 15 minutes.")
             time.sleep(900)
-        except (requests.exceptions.ConnectionError, requests.exceptions.RequestException) as neterr:
-            logging.warning("Network error: %s → sleeping 5 min", neterr)
-            time.sleep(300)
+        except (requests.exceptions.ConnectionError,
+         requests.exceptions.ChunkedEncodingError,
+         requests.exceptions.ReadTimeout,
+         requests.exceptions.RequestException) as neterr:
+            logging.warning("Network error: %s → sleeping 10 min", neterr)
+            time.sleep(600)
         except Exception as e:
             logging.error("Unexpected error: %s", e, exc_info=True)
             time.sleep(60)
