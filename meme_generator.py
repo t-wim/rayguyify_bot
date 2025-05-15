@@ -4,7 +4,6 @@ import json
 from pathlib import Path
 from ai_generator import generate_ai_image
 
-
 TOPICS = json.load(open("topics.json"))
 USE_AI = os.getenv("USE_AI", "1") == "1"
 
