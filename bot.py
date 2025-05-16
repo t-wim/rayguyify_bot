@@ -7,6 +7,8 @@ from dotenv import load_dotenv
 from meme_generator import generate
 
 load_dotenv()
+id_raw = os.getenv("BOT_USER_ID", "")
+BOT_USER_ID = int(id_raw.strip().replace("'", "").replace('"', ""))
 
 client = tweepy.Client(
     bearer_token=os.getenv("TWITTER_BEARER_TOKEN"),
